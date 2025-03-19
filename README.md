@@ -39,6 +39,7 @@ wireguard.networks.testnet = {
 
 <details>
 <summary><b>alice/configuration.nix</b></summary>
+
 ``` nix
 # alice/configuration.nix
 
@@ -56,10 +57,13 @@ sops.defaultSopsFormat = "json";
 
 sops.secrets.testnet = { };
 ```
+
 </details>
+
 
 <details>
 <summary><b>bob/configuration.nix</b></summary>
+
 ``` nix
 # bob/configuration.nix
 
@@ -77,4 +81,5 @@ sops.defaultSopsFormat = "json";
 
 sops.secrets.testnet = { };
 ```
+
 </details>
